@@ -5,10 +5,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-    <h1>GYM MATE</h1>
+      <Link to="/">GYM MATE</Link>
+    
+  
     <div className="auth">
-        <Link to="/" >Signup</Link>
-        <Link to="/">Login</Link>
+        <Link to="/signup" >Signup</Link>
+        <Link to="/login">Login</Link>
     </div>
     </nav>
   )
