@@ -1,0 +1,46 @@
+
+
+/* nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+}
+
+nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+} */
+
+
+
+nav{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 300px;
+}
+
+nav .logo a h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+nav .auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .auth a{
+    color: black;
+}

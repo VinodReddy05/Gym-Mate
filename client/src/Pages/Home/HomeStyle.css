@@ -1,0 +1,7 @@
+.home-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 80px 0;
+}
